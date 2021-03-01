@@ -10,6 +10,7 @@ icones importer du site web Font Awesome*/
 
 body {
     margin: 0;
+    margin-top: -2px;
     display: flex;
     flex-direction: column;
 }
@@ -572,7 +573,7 @@ footer {
     width: 180px;
     text-align: center;
     text-decoration: none;
-    color: #0065FC;
+    color: dimgray;
 }
 
 .auberge-texte {

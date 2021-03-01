@@ -20,6 +20,7 @@
         font-size: 16px;
     }
     .hebergements {
+        text-decoration: none;
         border-top: none;
         border-bottom: 4px solid #0065fc;
         width: 50%;
