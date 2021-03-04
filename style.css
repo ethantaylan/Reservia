@@ -144,6 +144,7 @@ input {
 }
 
 .barre-de-recherche-input::placeholder {
+    font-family: Raleway, sans-serif;
     font-size: 15px;
     color: dimgray;
     font-weight: 700;
@@ -525,11 +526,11 @@ footer {
     padding-top: 20px;
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
-    width: 100%;
+    width: 75%;
     height: 200px;
-
+    justify-content: space-around;
+    padding-right: 25%;
 }
 
 .titre-logements {
@@ -849,7 +850,7 @@ footer {
 
 li {
     width: 100%;
-    height: 100%;
+    height: 20%;
     font-weight: 500;
 }
 
@@ -907,6 +908,16 @@ li:hover {
     padding-bottom: 12px;
 }
 
+.barre-de-recherche-bouton {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+}
+
 .barre-de-recherche-bouton-dt {
     display: none;
+}
+
+li:first-child {
+    margin-bottom: 20px;
+
 }
