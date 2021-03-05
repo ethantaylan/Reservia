@@ -58,50 +58,8 @@ html {
 .full-height {
     height: 100%;
 }
-
-header {
-    margin-top: -2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 20px;
+.header {
 }
-
-.navigation {
-    font-weight: 600;
-    color: #0065fc;
-    display: flex;
-    justify-content: space-between;
-}
-
-.navigation a {
-    padding-top: 40px;
-    height: 100%;
-}
-
-.hebergements {
-    width: 180px;
-    text-align: center;
-    border-top-width: 4px;
-    border-top-style: solid;
-    border-top-color: #0065FC;
-    text-decoration: none;
-}
-
-.sinscrire {
-    margin-top: 5px;
-    width: 180px;
-    text-align: center;
-    margin-top: 2px;
-    order: 3;
-}
-
-.logo-reservia {
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
 .titre-principal {
     margin-left: 20px;
     font-weight: 700;
@@ -146,7 +104,7 @@ input {
 .barre-de-recherche-input::placeholder {
     font-family: Raleway, sans-serif;
     font-size: 15px;
-    color: dimgray;
+    color: black;
     font-weight: 700;
 }
 
@@ -328,8 +286,6 @@ input {
     font-size: 16px;
 }
 
-
-
 .titre-box-activities-splitted {
     letter-spacing: -.5px;
     margin-left: 20px;
@@ -422,10 +378,6 @@ input {
 .div3 {
     width: 100%;
     height: 100%;
-}
-
-.body2 {
-    width: 1250px;
 }
 
 .texte-box-populaires {
@@ -569,13 +521,6 @@ footer {
 .popmaxheight {
     height: 100%;
 }
-.nav-activites {
-    margin-top: 5px;
-    width: 180px;
-    text-align: center;
-    text-decoration: none;
-    color: dimgray;
-}
 
 .auberge-texte {
     font-size: 15px;
@@ -587,13 +532,6 @@ footer {
 
 .imgFrioul {
     background-image: url(images/activites/3_medium/frioulmedium.jpg);
-}
-
-.imgcolumnfull {
-    display: grid;
-    object-fit: cover;
-    width: 100%;
-    height: 90%;
 }
 
 .imgCalanques {
@@ -615,55 +553,6 @@ footer {
     grid-gap: 20px;
     justify-content: space-between;
     flex-flow: row wrap;
-}
-
-.double-image {
-    display: grid;
-    grid-template-rows: 50% 50%;
-    width: 100%;
-}
-
-.imgActivities {
-    background-image: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 25%;
-}
-
-.image-full {
-    width: 100%;
-    height: 100%;
-}
-
-
-
-.column2 {
-    height: 100%;
-    width: 25%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.column-full {
-    width: 20%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.columnEffect {
-    box-shadow: 0 0 5px #bbbbbb;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.txtActivities {
-    display: grid;
-    font-weight: 700;
-    margin-left: 20px;
 }
 
 .imgcolumnsplitted {
@@ -697,7 +586,6 @@ footer {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-width: 4px;
-
 }
 
 .topColumn {
@@ -832,14 +720,6 @@ footer {
     flex-direction: column;
 }
 
-.column3 {
-    height: 100%;
-    width: 25%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-
 .align-content-space-betweend {
     height: 400px;
     display: flex;
@@ -864,11 +744,6 @@ li:hover {
     flex-direction: column;
 }
 
-.responsive-header {
-    display: flex;
-    flex-direction: row;
-}
-
 .block-heberg {
     padding: 20px 40px;
     margin: 20px;
@@ -885,27 +760,9 @@ li:hover {
     margin-left: 10px;;
 }
 
-.body-elements {
-    background-color: red;
-}
-
 .bodytwo {
-    width: 93%;
-    margin: 0 auto;
     max-width: 1440px;
     min-width: 360px;
-}
-
-.header-image-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 100%;
-}
-
-.sinscrire-responsive {
-    display: none;
-    padding-bottom: 12px;
 }
 
 .barre-de-recherche-bouton {
@@ -919,5 +776,48 @@ li:hover {
 
 li:first-child {
     margin-bottom: 20px;
+}
 
+header {
+    font-weight: 500;
+    align-items: center;
+    color: #0065fc;
+    display: grid;
+    margin-top: -11px;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% auto auto auto;
+}
+
+.imgwidth {
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.nav-sinscrire {
+    font-weight: 700;
+    order: 1;
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    }
+
+.nav-activites {
+    color: dimgray;
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.nav-heberg {
+    text-align: center;
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    border-top-style: solid;
+    border-top-width: 4px;
 }
