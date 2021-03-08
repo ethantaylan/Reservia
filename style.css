@@ -733,7 +733,6 @@ li {
     width: 100%;
     font-weight: 500;
     display: flex;
-    white-space: pre;
 }
 
 li:hover {
@@ -761,11 +760,11 @@ li:hover {
     display: flex;
     flex-wrap: wrap;
     grid-gap: 10px;
-}
+}   
 
 .bodytwo {
     max-width: 1440px;
-    min-width: auto;
+    min-width: 315px;
 }
 
 .barre-de-recherche-bouton {
