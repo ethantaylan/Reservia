@@ -1,5 +1,8 @@
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
+    .filtres {
+        margin-bottom: 0px;
+    }
 }
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 1023px) { 
@@ -12,19 +15,29 @@
     .barre-de-recherche-bouton {
         display: none;
     }
+    .titre-filtres-plus-filtres {
+        display: block;
+    }  
     .barre-de-recherche-bouton-dt {
         display: block;
         background-color: #0065FC;
         border: none;
-        border-top-right-radius: 12px;
-        border-bottom-right-radius: 12px;
+        border-radius: 12px;
         padding: 15px;
         padding-bottom: 0;
         padding-top: 0;
+        margin-right: 20px;
     }
+
     .barre-de-recherche-input {
-        width: 25%;
+        padding-left: 10px;
+        height: 40px;
+        border: 1px solid #F2F2F2;
+        margin-right: -10px;
+        width: 30%;
     }
+    
+    
 
     .fa-search:hover {
         transform: scale(1.1);
@@ -68,6 +81,7 @@
         padding-bottom: 0;
     }
     .nav-heberg {
+        padding: 20px;
         order: 1;
         text-align: center;
         border-top-style: none;
@@ -75,6 +89,7 @@
         border-bottom-color: #0065FC;
     }
     .nav-activites {
+        padding: 20px;
         order: 3;
         text-align: center;
         border-bottom-style: solid;
@@ -101,13 +116,30 @@
         display: flex;
         flex-direction: column;
     }
+    .titre-filtres-plus-filtres {
+        display: block;
+    }  
+    .barre-de-recherche-input {
+        padding-left: 10px;
+        height: 40px;
+        width: 200px;
+        border: 1px solid #F2F2F2;
+        margin-right: -10px;
+        width: 100%;
+    }
+    .barre-de-recherche-bouton-dt {
+        margin-right: 20px;
+    }
+
     .block-heberg {
         order: 2;
         background-color: white;
     }
+
     .block-section-hebergements {
         justify-content: center;
     }
+
     .ligne-texte-populaires {
         display: flex;
         justify-content: space-between;
@@ -166,6 +198,7 @@
         padding-bottom: 0;
     }
     .nav-heberg {
+        padding: 20px;
         order: 1;
         text-align: center;
         border-top-style: none;
@@ -173,6 +206,7 @@
         border-bottom-color: #0065FC;
     }
     .nav-activites {
+        padding: 20px;
         order: 3;
         text-align: center;
         border-bottom-style: solid;
@@ -185,8 +219,7 @@
         display: block;
         background-color: #0065FC;
         border: none;
-        border-top-right-radius: 12px;
-        border-bottom-right-radius: 12px;
+        border-radius: 12px;
         padding: 15px;
         padding-bottom: 0;
         padding-top: 0;

@@ -109,6 +109,7 @@ input {
     display: flex;
     font-weight: 700;
     margin-left: 20px;
+    margin-top: 0px;
 }
 
 .bouton-filtre {
@@ -143,6 +144,12 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.titre-filtres-plus-filtres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fa-map-marker-alt {
