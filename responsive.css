@@ -125,7 +125,7 @@
         width: 200px;
         border: 1px solid #F2F2F2;
         margin-right: -10px;
-        width: 100%;
+        width: 50%;
     }
     .barre-de-recherche-bouton-dt {
         margin-right: 20px;
@@ -183,7 +183,7 @@
         order: 1;
         border-radius: 0;
     }
-    footer {
+    .footertwo {
         flex-direction: column;
     }
     .imgwidth {

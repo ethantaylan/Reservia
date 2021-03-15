@@ -488,7 +488,6 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: center;
 }
 
 .footertwo {
@@ -755,8 +754,8 @@ li:hover {
 .column {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    padding-left: 0px;
+    margin-left: 20px;
 }
 
 .block-heberg {
