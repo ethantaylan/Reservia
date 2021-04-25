@@ -495,6 +495,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 75%;
+    margin: 0 auto;
 }
 
 .titre-logements {
@@ -522,6 +523,7 @@ footer {
 .flex-align-content-around {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .box-section-populaires {
@@ -621,11 +623,11 @@ footer {
 
 .box-activites {
     min-height: 421px;
-    width: -webkit-fill-available;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 12px #dadada;
+    width: 100%;
 }
 
 .box-activites:hover {
@@ -639,7 +641,7 @@ footer {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 .box-activites-splitted-1 {
@@ -647,7 +649,7 @@ footer {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 .top-box-first-column {
@@ -741,7 +743,6 @@ footer {
 
 li {
     width: 100%;
-    font-weight: 300;
     display: flex;
     margin-bottom: 10px;
 }
